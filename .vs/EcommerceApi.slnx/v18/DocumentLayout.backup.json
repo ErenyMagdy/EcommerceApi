@@ -1,0 +1,1018 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\createcart\\addtocartcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\createcart\\addtocartcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\register\\registercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\register\\registercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\auth\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\auth\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\validators\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\validators\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\orders\\commands\\checkout\\checkoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\orders\\commands\\checkout\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\orders\\commands\\checkout\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\orders\\commands\\checkout\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\orders\\commands\\checkout\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\createcart\\createcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\createcart\\createcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\createcart\\addtocartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\createcart\\addtocartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\createcart\\addtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\createcart\\addtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\validators\\updateproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\validators\\updateproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\updatecart\\updatecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\updatecart\\updatecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\cart\\commands\\deletecart\\deletecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\cart\\commands\\deletecart\\deletecartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\base\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\base\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\queries\\getproducts\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\queries\\getproducts\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\queries\\getproductbyid\\getproductbyidquery .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\queries\\getproductbyid\\getproductbyidquery .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\queries\\getproducts\\getproductsquery .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\queries\\getproducts\\getproductsquery .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\products\\commands\\updateproduct\\updateproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\features\\base\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\features\\base\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\options\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\options\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|c:\\users\\ereny.magdy\\source\\repos\\ecommerceapi\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFF49090-42E7-A6CA-7333-88E768461EA8}|EcommerceApi\\EcommerceApi.csproj|solutionrelative:ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Interfaces\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcommerceApi\\Interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:33:09.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddToCartCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommandValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:23:06.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:21:15.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:21:08.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Program.cs",
+              "RelativeToolTip": "EcommerceApi\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T09:30:34.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:13:33.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:28:27.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:27:44.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Auth\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:21:32.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateProductCommand .cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommand .cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommand .cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommand .cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommand .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:29:51.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:20:38.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T08:19:07.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:07:09.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CheckoutCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwCgAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:22:16.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderResponse.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:19:14.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckoutCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\CheckoutCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:11:54.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Validators\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Validators\\CreateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Validators\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Validators\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:17:57.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderItemResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderItemResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Orders\\Commands\\Checkout\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:19:50.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T13:11:47.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddToCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:30:27.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T07:12:37.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddToCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\AddToCartResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:21:04.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:35:00.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateProductDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Validators\\UpdateProductDtoValidator.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Validators\\UpdateProductDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Validators\\UpdateProductDtoValidator.cs",
+              "RelativeToolTip": "EcommerceApi\\Validators\\UpdateProductDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:23:18.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T09:36:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "EcommerceApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T10:03:46.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\CartDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\CartDto.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\CartDto.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:48:28.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:28:37.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\Cart.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:27:28.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T10:15:39.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\UpdateCart\\UpdateCartCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\UpdateCart\\UpdateCartCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\UpdateCart\\UpdateCartCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\UpdateCart\\UpdateCartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:30:45.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwv2YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T11:23:58.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "EcommerceApi\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T09:42:36.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeleteCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\DeleteCart\\DeleteCartCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Cart\\Commands\\DeleteCart\\DeleteCartCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Cart\\Commands\\DeleteCart\\DeleteCartCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Cart\\Commands\\DeleteCart\\DeleteCartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:30:35.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T09:54:57.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T13:14:46.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EcommerceApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeDocumentMoniker": "EcommerceApi\\EcommerceApi.csproj",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\EcommerceApi.csproj",
+              "RelativeToolTip": "EcommerceApi\\EcommerceApi.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-31T12:46:24.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Base\\ICommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Base\\ICommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Base\\ICommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Base\\ICommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:37:14.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQueryHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T09:11:58.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetProductByIdQuery .cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQuery .cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQuery .cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQuery .cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQuery .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:31:31.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetProductsQuery .cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQuery .cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQuery .cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQuery .cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Queries\\GetProducts\\GetProductsQuery .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:31:12.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T07:31:42.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:29:15.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductResponse.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductResponse.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductResponse.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T13:13:28.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T09:53:27.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Base\\IQuery.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Features\\Base\\IQuery.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Features\\Base\\IQuery.cs",
+              "RelativeToolTip": "EcommerceApi\\Features\\Base\\IQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:37:36.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\OrderService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\OrderService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwFwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T08:05:07.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T05:27:18.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\Order.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T05:26:59.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\CartItem.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T05:26:33.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Exceptions\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "EcommerceApi\\Exceptions\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T08:04:18.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "EcommerceApi\\Services\\AuthService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAMBdwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:15:09.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "EcommerceApi\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:52:05.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "EcommerceApi\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T09:43:49.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\PagedResult.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\PagedResult.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:35:37.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "QueryParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\QueryParameters.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\QueryParameters.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\QueryParameters.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\QueryParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:34:40.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Options\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Options\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Options\\JwtSettings.cs",
+              "RelativeToolTip": "EcommerceApi\\Options\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:01:07.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Exceptions\\ApiException.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Exceptions\\ApiException.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Exceptions\\ApiException.cs",
+              "RelativeToolTip": "EcommerceApi\\Exceptions\\ApiException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T06:45:11.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Models\\User.cs",
+              "RelativeToolTip": "EcommerceApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T07:47:36.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "EcommerceApi\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "EcommerceApi\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T09:07:03.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EcommerceApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ereny.Magdy\\source\\repos\\EcommerceApi\\EcommerceApi\\appsettings.json",
+              "RelativeToolTip": "EcommerceApi\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T07:46:08.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
