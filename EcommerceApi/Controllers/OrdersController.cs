@@ -1,5 +1,6 @@
 ﻿using EcommerceApi.Dtos;
 using EcommerceApi.Exceptions;
+using EcommerceApi.Features.Orders.Commands.Checkout;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +18,6 @@ namespace EcommerceApi.Controllers
         {
             _mediator = mediator;
         }
-
         private int GetCurrentUserId()
         {
             var claim = User.FindFirst(ClaimTypes.NameIdentifier);
@@ -26,10 +26,10 @@ namespace EcommerceApi.Controllers
                 : throw new ApiException(StatusCodes.Status401Unauthorized, "Unauthorized", "User ID claim missing.");
         }
         [HttpPost("checkout")]
-        public async Task<ActionResult<OrderDto>> Checkout(CancellationToken cancellationToken)
+        public async Task<ActionResult<OrderResponse>> Checkout(CheckoutCommand request,CancellationToken cancellationToken)
         {
-            var userId = GetCurrentUserId();
-            var orders = await _mediator.CheckoutAsync(userId, cancellationToken);
+           request.UserId = GetCurrentUserId();
+            var orders = await _mediator.Send(request, cancellationToken);
             return Ok(orders);
         }
     }
