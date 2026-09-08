@@ -2,17 +2,11 @@
 using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
 using Mapster;
+using MediatR;
 namespace EcommerceApi.Features.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommandHandler : ICommandHandler<UpdateProductCommand, UpdateProductResponse>
+    public class UpdateProductCommandHandler(AppDbContext _context) : IRequestHandler<UpdateProductCommand, UpdateProductResponse>
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<UpdateProductCommandHandler> _logger;
-        public UpdateProductCommandHandler(AppDbContext context, ILogger<UpdateProductCommandHandler> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
         public async Task<UpdateProductResponse> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             var product = await _context.Products.FindAsync(request.Id, cancellationToken);

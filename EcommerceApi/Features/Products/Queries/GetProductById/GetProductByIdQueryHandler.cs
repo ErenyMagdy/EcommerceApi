@@ -1,22 +1,13 @@
-﻿using Azure.Core;
-using EcommerceApi.Dtos;
+﻿using EcommerceApi.Dtos;
 using EcommerceApi.Exceptions;
-using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi.Features.Products.Queries.GetProductById
 {
-    public class GetProductByIdQueryHandler:IQueryHandler<GetProductByIdQuery, ProductDto>
+    public class GetProductByIdQueryHandler(AppDbContext _context) : IRequestHandler<GetProductByIdQuery, ProductDto>
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<GetProductByIdQueryHandler> _logger;
-
-        public GetProductByIdQueryHandler(AppDbContext context, ILogger<GetProductByIdQueryHandler> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
         public async Task<ProductDto> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             var product = await _context.Products.AsNoTracking()

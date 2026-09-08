@@ -1,10 +1,9 @@
 ﻿using EcommerceApi.Features.Base;
-using System.ComponentModel.DataAnnotations;
-using System.Windows.Input;
+using MediatR;
 
 namespace EcommerceApi.Features.Auth.Commands.Register
 {
-    public class RegisterCommand:ICommand<RegisterCommandResponse>
+    public class RegisterCommand:ICommand<Unit>
     {
         public string Username { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;

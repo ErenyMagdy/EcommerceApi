@@ -1,4 +1,5 @@
-﻿using EcommerceApi.Dtos;
+﻿using EcommerceApi.Features.Auth.Commands.Login;
+using EcommerceApi.Features.Auth.Commands.Register;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,28 +10,22 @@ namespace EcommerceApi.Controllers
     [Route("api/Authentication")]
     [ApiController]
     [Authorize]
-    public class AuthenticationController : ControllerBase
+    public class AuthenticationController(IMediator _mediator) : ControllerBase
     {
-        private readonly IMediator _mediator;
-        public AuthenticationController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-
         [HttpPost("register")]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
+        public async Task<IActionResult> Register([FromBody] RegisterCommand command)
         {
-            await _authService.RegisterAsync(registerDto);
+            await _mediator.Send(command);
             return Ok(new { message = "User registered successfully!" });
         }
 
         [HttpPost("login")]
         [EnableRateLimiting("login-limiter")]
         [AllowAnonymous]
-        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginCommand command)
         {
-            var result = await _authService.LoginAsync(loginDto);
+            var result = await _mediator.Send(command);
             return Ok(result);
         }
     }

@@ -14,20 +14,17 @@ namespace EcommerceApi.Controllers
     [Route("api/products")]
     [ApiController]
     [Authorize]
-    public class ProductsController : ControllerBase
+    public class ProductsController(IMediator _mediator) : ControllerBase
     {
-        private readonly IMediator _mediator;
-        public ProductsController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<PagedResult<Product>>> GetProducts([FromQuery] GetProductsQuery queryParameters, CancellationToken cancellationToken)
         {
            var result = await _mediator.Send(queryParameters, cancellationToken);
             return Ok(result);
         }
         [HttpGet("{id:int}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetProduct(int id, CancellationToken cancellationToken) {
             var query = new GetProductByIdQuery { Id = id };
             var product = await _mediator.Send(query ,cancellationToken);

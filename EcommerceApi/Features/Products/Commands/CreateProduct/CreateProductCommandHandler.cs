@@ -1,21 +1,14 @@
 ﻿using EcommerceApi.Exceptions;
 using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi.Features.Products.Commands.CreateProduct
 {
-    public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResponse>
+    public class CreateProductCommandHandler(AppDbContext _context)
+        : IRequestHandler<CreateProductCommand, CreateProductResponse>
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<CreateProductCommandHandler> _logger;
-
-        public CreateProductCommandHandler(AppDbContext context, ILogger<CreateProductCommandHandler> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
-
         public async Task<CreateProductResponse> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             var sku = request.Sku?? GenerateSku(request.Name);
@@ -44,7 +37,7 @@ namespace EcommerceApi.Features.Products.Commands.CreateProduct
             {
                 await _context.SaveChangesAsync(cancellationToken);
             }
-            catch (DbUpdateException) //  Catch concurrent race conditions on the unique SKU index
+            catch (DbUpdateException) 
             {
                 throw new ApiException(
                    StatusCodes.Status409Conflict,
@@ -62,7 +55,7 @@ namespace EcommerceApi.Features.Products.Commands.CreateProduct
         private string GenerateSku(string name)
         {
             var prefix = string.Concat(name.Take(3));
-            var timestamp = DateTime.UtcNow.Ticks.ToString().Substring(0, 8);
+            var timestamp = DateTime.UtcNow.Ticks.ToString().Substring(prefix.Length - 8);
             return $"{prefix}-{timestamp}";
         }
     }

@@ -143,6 +143,7 @@ C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\Eco
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.csproj.CoreCompileInputs.cache
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\EcommerceApi.sourcelink.json
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Ereny.Magdy\source\repos\EcommerceApi\EcommerceApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

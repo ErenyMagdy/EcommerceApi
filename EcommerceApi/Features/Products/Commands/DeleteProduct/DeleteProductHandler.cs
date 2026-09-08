@@ -1,19 +1,13 @@
 ﻿using EcommerceApi.Exceptions;
 using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi.Features.Products.Commands.DeleteProduct
 {
-    public class DeleteProductHandler: ICommandHandler<DeleteProductCommand,bool>
+    public class DeleteProductHandler(AppDbContext _context) : IRequestHandler<DeleteProductCommand,bool>
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<DeleteProductHandler> _logger;
-        public DeleteProductHandler(AppDbContext context, ILogger<DeleteProductHandler> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
         public async Task<bool> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
             var product = await _context.Products.FindAsync(request.Id, cancellationToken);

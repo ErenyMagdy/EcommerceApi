@@ -1,21 +1,21 @@
 ﻿using EcommerceApi.Exceptions;
 using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi.Features.Cart.Commands.CreateCart
 {
-    public class CreateCartCommandHandler : ICommandHandler<AddToCartCommand, AddToCartResponse>
+    public class CreateCartCommandHandler(AppDbContext _context, ICurrentUserService _currentUserService) 
+        : IRequestHandler<AddToCartCommand, AddToCartResponse>
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<CreateCartCommandHandler> _logger;
-        public CreateCartCommandHandler(AppDbContext context, ILogger<CreateCartCommandHandler> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
         public async Task<AddToCartResponse> Handle(AddToCartCommand request, CancellationToken cancellationToken)
         {
+            var userId = _currentUserService.UserId;
+            if (userId == null)
+            {
+                throw new ApiException(StatusCodes.Status401Unauthorized, "Unauthorized", "يجب تسجيل الدخول لإتمام الطلب.");
+            }
             var cart = await _context.Carts.Include(c => c.CartItems)
                 .FirstOrDefaultAsync(c => c.UserId == request.UserId, cancellationToken);
             if (cart == null)

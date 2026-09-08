@@ -1,5 +1,6 @@
 using EcommerceApi.Behaviors;
 using EcommerceApi.Exceptions;
+using EcommerceApi.Features.Base;
 using EcommerceApi.Mappings;
 using EcommerceApi.Models;
 using EcommerceApi.Options;
@@ -14,6 +15,7 @@ using Microsoft.OpenApi;
 using System.Reflection;
 using System.Text;
 using System.Threading.RateLimiting;
+using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options => 
@@ -23,10 +25,11 @@ builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
 
-    cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
-    cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
-    cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(PerformanceBehavior<,>));
+    //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+    //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
+    //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(PerformanceBehavior<,>));
 });
+
 var jwtSection = builder.Configuration.GetSection("JwtSettings");
 builder.Services.Configure<JwtSettings>(jwtSection);
 var jwtSettings = jwtSection.Get<JwtSettings>() ?? throw new InvalidOperationException("JwtSettings not found.");
@@ -105,49 +108,48 @@ builder.Services.AddSwaggerGen( c =>
         Title = "EcommerceApi",
         Version = "v1"
     });
-    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.OpenApiSecurityScheme
+    c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
         Name = "Authorization",
-        In = Microsoft.OpenApi.ParameterLocation.Header,
-        Type = Microsoft.OpenApi.SecuritySchemeType.ApiKey,
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
-    c.AddSecurityRequirement(document => new OpenApiSecurityRequirement
+//    c.AddSecurityRequirement(document => new OpenApiSecurityRequirement
+//    {
+//        [new OpenApiSecuritySchemeReference("Bearer", document)] = new List<string>()
+//    });
+//});
+c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
     {
-        [new OpenApiSecuritySchemeReference("Bearer", document)] = new List<string>()
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string [] {}
+        }
     });
 });
-    //c.AddSecurityRequirement(new Microsoft.OpenApi.OpenApiSecurityRequirement
-    //{
-    //    {
-    //        new Microsoft.OpenApi.OpenApiSecurityScheme
-    //        {
-    //            Reference = new Microsoft.OpenApi.OpenApiReference
-    //            {
-    //                Type = Microsoft.OpenApi.ReferenceType.SecurityScheme,
-    //                Id = "Bearer"
-    //            }
-    //        },
-    //        new string [] {}
-    //    }
-    //});
-//});
 MappingConfig.RegisterMappings();
 
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
-//builder.Services.AddScoped<IAuthService, AuthService>();
-//builder.Services.AddScoped<IProductService, ProductService>();
-//builder.Services.AddScoped<ICartService, CartService>();
-//builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger(options =>
     {
-        options.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi2_0;
+       // options.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi2_0;
     });
     app.UseSwaggerUI(c =>
     {
@@ -157,6 +159,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseExceptionHandler();
 app.UseRouting();
 
 app.UseStatusCodePages();
