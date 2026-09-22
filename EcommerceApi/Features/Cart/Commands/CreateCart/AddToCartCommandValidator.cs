@@ -6,8 +6,8 @@ namespace EcommerceApi.Features.Cart.Commands.CreateCart
     {
         public AddToCartCommandValidator()
         {
-            RuleFor(x => x.UserId)
-              .GreaterThan(0).WithMessage("Invalid user ID.");
+            //RuleFor(x => x.UserId)
+            //  .GreaterThan(0).WithMessage("Invalid user ID.");
 
             RuleFor(x => x.ProductId)
                 .GreaterThan(0).WithMessage("Invalid product ID.");

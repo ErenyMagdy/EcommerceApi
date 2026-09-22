@@ -1,0 +1,18 @@
+# Build outputs & Visual Studio files
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Test projects (tests don't need to be packaged into the API production container)
+EcommerceApi.Tests/
+TestResults/
+
+# Git & Docker files
+.git/
+.gitignore
+Dockerfile
+docker-compose*.yml
+README.md
