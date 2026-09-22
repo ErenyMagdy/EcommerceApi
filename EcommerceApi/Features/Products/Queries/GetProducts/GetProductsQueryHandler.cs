@@ -1,5 +1,4 @@
 ﻿using EcommerceApi.Dtos;
-using EcommerceApi.Features.Base;
 using EcommerceApi.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;

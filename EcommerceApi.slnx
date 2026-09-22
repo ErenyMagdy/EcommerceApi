@@ -1,3 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="EcommerceApi.Tests/EcommerceApi.Tests.csproj" Id="787ad4c0-3341-4aa9-be6f-1aa497eea693" />
   <Project Path="EcommerceApi/EcommerceApi.csproj" />
 </Solution>

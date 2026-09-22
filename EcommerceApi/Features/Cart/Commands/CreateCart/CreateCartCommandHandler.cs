@@ -17,12 +17,21 @@ namespace EcommerceApi.Features.Cart.Commands.CreateCart
                 throw new ApiException(StatusCodes.Status401Unauthorized, "Unauthorized", "يجب تسجيل الدخول لإتمام الطلب.");
             }
             var cart = await _context.Carts.Include(c => c.CartItems)
-                .FirstOrDefaultAsync(c => c.UserId == request.UserId, cancellationToken);
+                .FirstOrDefaultAsync(c => c.UserId == userId, cancellationToken);
             if (cart == null)
             {
-                cart = new Models.Cart { UserId = request.UserId };
+                cart = new Models.Cart { UserId = (int)userId };
                 _context.Carts.Add(cart);
-                await _context.SaveChangesAsync(cancellationToken);
+                try
+                {
+                    await _context.SaveChangesAsync(cancellationToken);
+
+                }
+                catch (Exception E)
+                {
+                    var EX = E.Message;
+                    throw E;
+                }
             }
             var product = await _context.Products
                 .FirstOrDefaultAsync(p => p.Id == request.ProductId, cancellationToken);
@@ -65,7 +74,9 @@ namespace EcommerceApi.Features.Cart.Commands.CreateCart
             {
                 Message = "Item added to cart successfully.",
                 CartItemId = cartItem.Id,
-                TotalItems = cart.CartItems.Count
+                TotalItems = cart.CartItems.Count,
+                UserId = (int)userId,
+                CartId = cart.Id
             };
         }
     }
